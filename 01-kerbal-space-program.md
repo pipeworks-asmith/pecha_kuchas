@@ -169,4 +169,6 @@ notes: Finally, I'd like to leave you with this difficulty curve that the commun
 ---
 
 ## Questions?
-![[kerbal-goodbye.jpg]]
+<grid drag="85 25">
+![[kerbal-goodbye.jpg|600]]
+</grid>
