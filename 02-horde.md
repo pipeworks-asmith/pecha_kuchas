@@ -68,7 +68,7 @@ notes: along with build agents, you can give a fleet of QA devices to Horde to m
 
 Desktop notifications when you break the build
 
-notes: another existing Unreal tool being absorbed by Horde is the UGS Metadata Server, which adds power to UnrealGameSync by allowing users to mark changes as "Good" or "Bad," showing which users are synced to which changes, and surfacing build results via direct integration with Horde CI, allowing UGS to notify you directly on your desktop if you check something in which breaks the build.
+notes: another existing Unreal tool being absorbed by Horde is the UGS Metadata Server, which adds power to UnrealGameSync by allowing users to mark changes as "Good" or "Bad," showing which users are synced to which changes, and surfacing build results via direct integration with Horde CI. This allows UGS to notify you directly on your desktop if you check something in which breaks the build.
 
 ---
 
@@ -76,7 +76,11 @@ notes: another existing Unreal tool being absorbed by Horde is the UGS Metadata 
 
 An incomplete solution
 
-notes: The glaring problem with Horde is that it doesn't handle any of the non-Unreal builds. So your C# backend services, your Java web apps, and your Terraform deployment calls are all non-starters in Horde. BuildGraph can begin to fill the gap here by allowing you to "Spawn" external executables and wait for them to finish, but we're back to configuring and tweaking and hacking to get that to work. A complete solution likely uses Horde *in addition* to old mainstays like Jenkins, Teamcity, or Git-powered solutions like Github Actions for a full-throated CI/CD system.
+notes: The glaring problem with Horde is that it doesn't handle any of the non-Unreal builds. So your C# backend services, your Java web apps, and your Terraform deployment calls are all non-starters in Horde. BuildGraph can begin to fill the gap here by allowing you to "Spawn" external executables and wait for them to finish, but we're back to configuring and tweaking and hacking to get that to work. A complete solution on a project likely uses Horde *in addition* to old mainstays like Jenkins, Teamcity, or Git-powered solutions like Github Actions for a full-throated CI/CD system.
+
+---
+
+# Questions?
 
 ---
 
