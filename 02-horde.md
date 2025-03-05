@@ -13,7 +13,7 @@ notes: Horde is a CI/CD system built by Epic specifically for Unreal Engine. The
 
 A build system for Unreal Engine
 
-notes: Most of my time at GDC this year was spent attending lectures talking about how and why you use Horde on-prem and in the cloud.
+notes: Most of my time at Unrealfest this year was spent attending lectures talking about how and why you use Horde on-prem and in the cloud.
 
 ---
 
@@ -53,7 +53,7 @@ notes: In fact, those compute resources don't need to sit idle waiting for a bui
 
 You mean games can have tests too?
 
-notes: Though this was *not* something I saw a lot of talk about at GDC, one of the features that I'm excited for is the ability to use Epic's Gauntlet Automation Framework to run automated tests on the build machines *or on device*. Each CI build can kick off a suite of tests on a set of QA devices plugged into the build farm and give a report when those tests fail and in what circumstances, saving valuable QA time smoking daily builds
+notes: Though this was *not* something I saw a lot of talk about at Unrealfest, one of the features that I'm excited for is the ability to use Epic's Gauntlet Automation Framework to run automated tests on the build machines *or on device*. Each CI build can kick off a suite of tests on a set of QA devices plugged into the build farm and give a report when those tests fail and in what circumstances, saving valuable QA time smoking daily builds
 
 ---
 # Device Manager
